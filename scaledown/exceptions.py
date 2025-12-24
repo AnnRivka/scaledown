@@ -9,3 +9,11 @@ class AuthenticationError(ScaleDownError):
 class APIError(ScaleDownError):
     """Raised when the ScaleDown API returns an error."""
     pass
+
+class OptimizerError(ScaleDownError):
+    """Raised when an optimizer encounters an error."""
+    pass
+
+class PipelineError(ScaleDownError):
+    """Raised when pipeline execution fails."""
+    pass
