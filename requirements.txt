@@ -23,3 +23,6 @@ typing-inspection==0.4.2
     # via pydantic
 urllib3==2.6.2
     # via requests
+
+scikit-learn
+numpy
